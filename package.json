@@ -1,0 +1,24 @@
+{
+  "name": "networking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melanieislas/networking-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melanieislas/networking-api/issues"
+  },
+  "homepage": "https://github.com/Melanieislas/networking-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "validator": "^13.9.0"
+  }
+}
