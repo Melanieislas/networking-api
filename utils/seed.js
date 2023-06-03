@@ -11,9 +11,9 @@ connection.once('open', async () => {
     //await User.deleteMany({});
     await Thought.deleteMany({});
 
-    //const thoughts = [];
+    const thoughts = [];
 
-    //await User.collection.insertMany(usersDatabase);
+   // await User.collection.insertMany(usersDatabase);
+    await Thought.collection.insertMany(thoughtsDatabase);
 
-    await Thought.collection.insertMany(thoughtsDatabase)
 });
